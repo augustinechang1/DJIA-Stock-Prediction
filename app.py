@@ -71,7 +71,7 @@ encoded_image3 = base64.b64encode(open(image_filename3, 'rb').read())
 
 app.layout = html.Div([
     # html.Div([
-    html.Div([html.H1(children="Stock Prediction"),
+    html.Div([html.H1(children=" "),
         html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), style={'width': '700px'})
     ], style={'display': 'inline-block'}),
     html.Div([html.H1(children=" "),
